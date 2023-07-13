@@ -1,0 +1,111 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .desktop-wrapper {
+  border: 0px none;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.box .desktop {
+  background-color: var(--background);
+  height: 1024px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}
+
+.box .nav-item-instance {
+  height: 40px !important;
+  left: 1030px !important;
+  position: absolute !important;
+  top: 64px !important;
+  width: 160px !important;
+}
+
+.box .design-component-instance-node {
+  color: #ffffff !important;
+}
+
+.box .nav-item-2 {
+  height: 40px !important;
+  left: 1190px !important;
+  position: absolute !important;
+  top: 64px !important;
+  width: 160px !important;
+}
+
+.box .nav-item-3 {
+  height: 40px !important;
+  left: 870px !important;
+  position: absolute !important;
+  top: 64px !important;
+  width: 160px !important;
+}
+
+.box .nav-item-4 {
+  height: 40px !important;
+  left: 710px !important;
+  position: absolute !important;
+  top: 64px !important;
+  width: 160px !important;
+}
+
+.box .element {
+  height: 168px;
+  left: 70px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.box .overlap-group {
+  height: 856px;
+  left: 67px;
+  position: absolute;
+  top: 168px;
+  width: 1373px;
+}
+
+.box .untitled-design {
+  height: 856px;
+  left: 288px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1085px;
+}
+
+.box .offering-innovative {
+  color: #ffffff;
+  font-family: "Kaisei Opti", Helvetica;
+  font-size: 55px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 75px;
+  position: absolute;
+  top: 43px;
+  width: 653px;
+}
+
+.box .your-trusted-partner {
+  color: #ffffff;
+  font-family: "Kaisei Opti", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: 75px;
+  position: absolute;
+  top: 300px;
+  white-space: nowrap;
+}
